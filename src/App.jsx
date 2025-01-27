@@ -1,4 +1,4 @@
-import './App.css'
+import './index.css'
 
 function App() {
 
@@ -6,7 +6,7 @@ function App() {
   return (
 
     <>
-      <h1 className='text-red-500'>Hello</h1>
+      <h1 className='text-red-500 font-circularweb'>Hello</h1>
     </>
   )
 }

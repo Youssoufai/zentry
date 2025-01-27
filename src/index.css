@@ -1,9 +1,16 @@
 @import "tailwindcss";
 
+body {
+    font-family: 'General Sans' sans-serif;
+    width: 100dvw;
+    background: '#dfdff0';
+    overflow-x: hidden;
+}
+
 @layer base {
     @font-face {
         font-family: 'circular-web';
-        src: url('/fonts/circlularweb-book.woff2') formate('woff2');
+        src: url('/fonts/circlularweb-book.woff2') format('woff2');
     }
 
     @font-face {
