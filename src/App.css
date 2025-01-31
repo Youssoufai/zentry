@@ -1,1 +1,7 @@
-@import "tailwindcss";
+@font-face {
+    font-family: Robert;
+    src: url('../public/fonts/robert-medium.woff2') format('woff2');
+    font-weight: 500;
+    /* Adjust weight if needed */
+    font-style: normal;
+}
